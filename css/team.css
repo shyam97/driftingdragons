@@ -375,9 +375,10 @@ display:none;
 
 .portfolio .portfolio-margin{
   position:relative;
-  width:900px;
+  width:66%;
   overflow:hidden;
   margin:0 auto;
+  text-align:center;
 }
 
 .portfolio .portfolio-margin .read-more{
@@ -433,19 +434,18 @@ display:none;
 /* Portfolio grid */
 
 .grid{
-  margin-top:50px;
+  margin:40px auto 70px;
   width:100%;
   position:relative;
-  margin-bottom:70px;
   overflow:hidden;
 }
 
 .grid li{
   width:285px;
   margin:0 15px 15px 0;
-  float: left;
   position: relative;
   overflow: hidden;
+  display: inline-block;
 }
 
 .grid img{
